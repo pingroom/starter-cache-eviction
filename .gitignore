@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+/.pingroom/
+/.eviction/
+/config.json
+/cache.json
+.DS_Store

@@ -1,0 +1,37 @@
+{
+  "traceId": "paper-assets",
+  "title": "Practice asset cache",
+  "context": "Consult the documented eviction behavior of the local asset cache.",
+  "objects": [
+    {
+      "id": "alpha",
+      "bytes": 3
+    },
+    {
+      "id": "beta",
+      "bytes": 2
+    },
+    {
+      "id": "gamma",
+      "bytes": 2
+    },
+    {
+      "id": "large",
+      "bytes": 9
+    }
+  ],
+  "requests": [
+    "alpha",
+    "beta",
+    "alpha",
+    "gamma",
+    "beta",
+    "large",
+    "alpha"
+  ],
+  "capacities": [
+    0,
+    5,
+    7
+  ]
+}
